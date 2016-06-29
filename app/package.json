@@ -1,0 +1,48 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+    "build": "webpack --progress --profile --colors --display-error-details --display-cached"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron-prebuilt": "^0.37.8",
+    "es6-shim": "^0.34.0",
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "electron-debug": "^0.7.0",
+    "electron-json-storage": "^2.0.0",
+    "electron-menus": "^0.1.0",
+    "angular2": "2.0.0-beta.0",
+    "zone.js": "^0.5.10",
+    "bootstrap": "^3.3.6",
+    "gulp": "^3.9.0",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0"
+  }
+}

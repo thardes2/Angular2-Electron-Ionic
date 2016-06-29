@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true
+  },
+  "filesGlob": [
+    "**/*.ts",
+    "!node_modules/**/*"
+  ],
+  "files": [
+    "app/app.ts",
+    "app/appElectron.ts",
+    "app/dashboard/dashboard.ts",
+    "app/pwgeneration/pwgeneration.ts"
+    ],
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
+  "compileOnSave": true,
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
