@@ -7,15 +7,13 @@ npm install
 
 Starting the electron app:
 ```
-npm start
-
+$ npm start
 ```
 
 Testing your app in a browser is as simple as running the serve command in your project’s root folder.
 
 ```
-ionic serve
-
+$ ionic serve
 ```
 To run the code on an android device:
 ```
