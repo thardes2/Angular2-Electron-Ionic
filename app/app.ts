@@ -1,9 +1,8 @@
 import {Component, ViewChild} from '@angular/core';
 import {App, ionicBootstrap, Platform, Nav} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
-import {Dashboard} from './pages/dashboard/dashboard';
 import { provideRouter } from '@angular/router';
-import { KeyDepotAppRoutes } from './routes';
+import { AppRoutes } from './routes';
 import {page1} from './pages/page1/mobile/page1'
 import {page2} from './pages/page2/desktop/page2'
 import {page3} from './pages/page3/desktop/page3'

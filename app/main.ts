@@ -2,20 +2,18 @@ import { bootstrap }    from '@angular/platform-browser-dynamic';
 
 import { provideRouter } from '@angular/router';
 
-import { Dashboard } from './dashboard/dashboard';
 import { AppComponent } from './appElectron.component';
-import { KeyDepotAppRoutes } from './routes';
+import { AppRoutes } from './routes';
 
 // bootstrap(AppComponent, [
 //   provideRouter(ContactsAppRoutes)
 // ]);
 bootstrap(AppComponent, [
-   provideRouter(KeyDepotAppRoutes)
+   provideRouter(AppRoutes)
 ]);
 
 
 // bootstrap(Dashboard, [
-//   provideRouter(KeyDepotAppRoutes),
 //   provide(APP_BASE_HREF, {useValue : '' })
 //   ]); 
 

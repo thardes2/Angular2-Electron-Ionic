@@ -1,6 +1,6 @@
 {
-  "name": "keydepot2",
-  "description": "keydepot2: An Ionic project",
+  "name": "Electron and an Ionic project",
+  "description": "Electron and an Ionic project",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
