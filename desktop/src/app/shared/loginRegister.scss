@@ -1,0 +1,49 @@
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+input{
+    color:black;
+    text-align: center;
+    height: 60px;
+    width: 390px;
+}
+.registerLoginDiv{
+    background-color: #263248;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+    height:100vh;
+    width:100vw;
+    padding-top: 100px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.messageDiv{
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+}
+
+$imageWidth: 100px;
+
+.messageDivIcon{
+    justify-content: flex-start;
+    width: $imageWidth;
+}
+.messageDivMessage{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: flex-end;
+    width: calc(100% - $imageWidth);
+}
