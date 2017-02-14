@@ -5,10 +5,10 @@
 # Clone the repo
 
 ```bash
-git clone git@192.168.111.29:hardes/keydepotCore.git
-git clone git@192.168.111.29:hardes/keydepotDesktop.git
+git clone git@URL:thardes/Core.git
+git clone git@URL:thardes/Desktop.git
 
-cd keydepotCore
+cd Core
 npm install
 typings install
 
@@ -31,7 +31,7 @@ npm pack
 
 
 ```bash
-cd ../keydepotCore
+cd ../Core
 # angular2 cli required
 npm install -g angular-cli
 
@@ -42,7 +42,7 @@ npm install
 # Create a symlink from the local node_modules folder to the global shared module symlink
 # npm link ngrx-demo-core
 # npm link does not work... so we use pack/install (temporarly)
-npm install ../keydepotCore/dist/keydepot-core-0.0.1.tgz
+npm install ../Core/dist/core-0.0.1.tgz
 
 # run webpack dev server
 npm start
